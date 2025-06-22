@@ -33,7 +33,7 @@ setEmailList(totalemail);
 }
 
 
-FileReader.readAsBinaryString(file);
+reader.readAsBinaryString(file);
 
   }
 
