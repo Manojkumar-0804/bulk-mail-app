@@ -4,8 +4,8 @@ import nodemailer from 'nodemailer';
 import mongoose from 'mongoose';
 
 const app = express();
-app.use(cors())
-app.use(json())
+app.use(cors());
+app.use(json());
 
 
 mongoose.connect("mongodb+srv://manojmk0804:QGiE3HIkDgKdg2c2@cluster0.05lsg3g.mongodb.net/passkey?retryWrites=true&w=majority&appName=Cluster0").then(function () {
