@@ -7,8 +7,8 @@ const app = express();
 app.use(cors());
 app.use(json());
 
-
-mongoose.connect("mongodb+srv://manojmk0804:QGiE3HIkDgKdg2c2@cluster0.05lsg3g.mongodb.net/passkey?retryWrites=true&w=majority&appName=Cluster0").then(function () {
+mongoose.connect("mongodb+srv://manoj:1234@cluster0.05lsg3g.mongodb.net/passkey?retryWrites=true&w=majority&appName=Cluster0"
+).then(function () {
     console.log("Connected to DB")
 }).catch(function () { console.log("Failed to connect") })
 
