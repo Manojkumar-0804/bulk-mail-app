@@ -41,7 +41,7 @@ reader.readAsBinaryString(file);
 
     setstatus(true)
 
-   axios.post("https://bulk-mail-app-9x7n.onrender.com/sendemail", { msg: msg, emailList: emailList })
+   axios.post("https://bulk-mail-app-klt5.onrender.com/sendemail", { msg: msg, emailList: emailList })
 
 
     .then(function(data){
